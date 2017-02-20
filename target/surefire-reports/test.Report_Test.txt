@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: test.Report_Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.034 sec <<< FAILURE! - in test.Report_Test
+Report_Test(test.Report_Test)  Time elapsed: 0.033 sec  <<< ERROR!
+java.lang.RuntimeException: 
+Could not contact Selenium Server; have you started it on 'localhost:4444' ?
+Read more at http://seleniumhq.org/projects/remote-control/not-started.html
+Connection refused
+	at test.Report_Test.setUp(Report_Test.java:30)
+
